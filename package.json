@@ -1,0 +1,16 @@
+{
+  "name": "life-dashboard",
+  "version": "1.0.0",
+  "description": "Life Dashboard property and unit tests",
+  "scripts": {
+    "test": "jest",
+    "test:property": "jest tests/property"
+  },
+  "devDependencies": {
+    "fast-check": "^3.22.0",
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
